@@ -18,11 +18,20 @@ public partial class ClientList : System.Web.UI.Page
 
     protected void search_Click(object sender, EventArgs e)
     {
+        string companyInput = companyname.Value.Trim();
+        if (companyInput.Length < 3)
+        {
+            tableappear.Visible = false;
+            return;
+        }
+        string companyPrefix = companyInput.Substring(0, 3);
+
         Class1 cc = new Class1();
-        //cc.gridbind(GridView1, "select companyname,address,scope,isostandard from application where certificateno='" + certificateno.Value.Trim() + "' and companyname like '%" + companyname.Value.Trim().Substring(0, 3) + "%'");
         MySqlConnection con = cc.mycon;
         con.Open();
-        MySqlCommand cmd = new MySqlCommand("select companyname,address,scope,isostandard,issuedate,expirydate,certificateno from application where certificateno='" + certificateno.Value.Trim() + "' and companyname like '%" + companyname.Value.Trim().Substring(0, 3) + "%'", con);
+        MySqlCommand cmd = new MySqlCommand("select companyname,address,scope,isostandard,issuedate,expirydate,certificateno from application where certificateno=@certno and companyname like @cname", con);
+        cmd.Parameters.AddWithValue("@certno", certificateno.Value.Trim());
+        cmd.Parameters.AddWithValue("@cname", "%" + companyPrefix + "%");
         MySqlDataReader dr = cmd.ExecuteReader();
         if(dr.HasRows)
         {
@@ -49,3 +58,5 @@ public partial class ClientList : System.Web.UI.Page
         con.Close();
     }
 }
+
+// update 
