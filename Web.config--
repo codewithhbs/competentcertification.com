@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  https://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+  <system.web>
+     <customErrors mode="Off" />
+    <compilation debug="true" targetFramework="4.5.2" defaultLanguage="c#" tempDirectory="D:\INETPUB\VHOSTS\competentcertification.com\tmp">
+      <assemblies>
+        <add assembly="System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" />
+      </assemblies>
+    </compilation>
+    <httpRuntime targetFramework="4.5.2" />
+  </system.web>
+  <appSettings>
+    <add key="ValidationSettings:UnobtrusiveValidationMode" value="None" />
+  </appSettings>
+</configuration>

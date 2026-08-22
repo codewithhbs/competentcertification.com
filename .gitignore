@@ -1,0 +1,50 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# NuGet
+packages/
+*.nupkg
+*.nuget.props
+*.nuget.targets
+!packages/repositories.config
+
+# ASP.NET temp/publish
+*.pubxml
+*.pubxml.user
+*.publishproj
+PublishScripts/
+App_Data/
+*.cache
+
+# ReSharper / other tools
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets (agar Web.config me creds daalo future me)
+*.env
+appsettings.local.json
+
+# Editor
+.idea/
+*.swp

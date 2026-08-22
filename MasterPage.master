@@ -1,0 +1,333 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+ <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="ISO Latest Certification,ISO Registration,ISO Document" />
+    <meta name="description" content="What is ISO Certification,ISO certification refers to the process of obtaining certification from the International Organization for Standardization (ISO). ISO is an independent, non-governmental international organization that develops and publishes standards to ensure quality, safety, and efficiency in various industries.ISO certification demonstrates that an organization has implemented and maintains a management system that meets the requirements of specific ISO standards. The certification is awarded by an accredited third-party certification body after assessing the organization's compliance with the relevant standards.ISO offers a wide range of standards covering different aspects of business operations, including quality management, environmental management, information security, occupational health and safety, energy management, and more. Some of the popular ISO standards include ISO 9001 (Quality Management), ISO 14001 (Environmental Management), ISO 27001 (Information Security Management), and ISO 45001 (Occupational Health and Safety Management)." />
+    <meta name="author" content="Competent Certification Services" />
+    <title><asp:Literal id="litBrowserTitle" runat="server"></asp:Literal> </title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/b33021ab-e9cd-4689-b764-5d64333e9f7c-removebg-preview.png" />
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome-5.css" />
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/unicons.css" />
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <asp:ContentPlaceHolder id="head" runat="server"></asp:ContentPlaceHolder>
+    <script src="//code.jivosite.com/widget/C76b5kkJ9m" async></script>
+    <style type="text/css">
+        .fab.fa-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
+}
+    </style>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MN4LPFQV');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+<body class="home-blue">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MN4LPFQV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <form id="form1" runat="server">
+         <header class="header-two header--sticky">
+        <div class="header-top">
+            <div class="content">
+                <div class="left-header-top">
+                    <p class="top-details">Are you ready to grow up your business? <a href="/Contact">Contact Us <i class="fal fa-arrow-right"></i></a></p>
+                </div>
+                <div class="right-header-top">
+                    <div class="working-time"><i class="far fa-clock"></i><span>Working: 10.00am - 6.00pm</span></div>
+                    <div class="ht-social">
+                        <span>Visit Us:</span>
+                        <ul>
+                            <li><a href="https://www.facebook.com/profile.php?id=100063775278295" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://x.com/CompetentCert?t=h36fL59ggrS0pVNlMUeX8A&s=09" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://in.linkedin.com/in/competent-certification-527465139" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.instagram.com/competentcertification?igsh=MW5tb3FiZ3FqNWlhcw==" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="content">
+                <div class="header-left">
+                    <a class="thumbnail" href="/"><img src="assets/images/logo1.png" alt="Competent Certification Services" /> </a>
+                   <h6 style="margin-top:20px;">Competent Certification Services</h6>
+                    <nav class="nav-main mainmenu-nav d-none d-xl-block">
+                        <ul class="mainmenu">
+                            <li><a class="nav-item" href="/">Home</a></li>
+                              <li><a class="nav-item" href="/about">About us</a></li>
+                            <li class="has-droupdown">
+                                <a class="nav-link" href="#">Services</a>
+                                <ul class="submenu menu-link3">
+                                    <li><a href="/iso-9001-2015">ISO-9001-2015</a></li>
+                                    <li><a href="/iso-14001-2015">ISO-14001-2015</a></li>
+                                    <li><a href="/iso-45001-2018">ISO-45001-2018</a></li>
+                                    <li><a href="/iso-13485-2016">ISO-13485-2016</a></li>
+                                </ul>
+                            </li>
+                           <li><a class="nav-item" href="/clientList">Client List</a></li>
+                            <li><a class="nav-item" href="/contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-right">
+                    <div class="call-area">
+                        <div class="icon">
+                            <a href="tel:+918467844058">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                <path d="M14.2251 11.5362C13.7279 11.5914 13.3688 12.061 13.3965 12.5858C13.4517 13.083 13.8936 13.4697 14.4461 13.4144C14.9985 13.3592 15.5509 13.5249 15.9376 13.9116C16.352 14.3259 16.5177 14.8784 16.4624 15.4308C16.4072 15.9832 16.7939 16.4252 17.2911 16.4804C17.5949 16.508 17.8711 16.3975 18.0645 16.2042C18.2026 16.0661 18.3131 15.8451 18.3407 15.6518C18.4512 14.4917 18.0645 13.3868 17.2635 12.5858C16.4901 11.8124 15.3852 11.4257 14.2251 11.5362ZM13.866 7.80729C13.3136 7.86253 12.9545 8.3321 13.0098 8.82928C13.0374 9.35409 13.507 9.71317 14.0318 9.68554C15.7443 9.51982 17.3739 10.0999 18.5617 11.2876C19.7218 12.4477 20.3294 14.105 20.1637 15.8175C20.1085 16.3147 20.4675 16.7842 20.9923 16.8119C21.2962 16.8395 21.5448 16.7566 21.7381 16.5633C21.9038 16.3975 21.9867 16.2042 22.042 15.9832C22.2905 13.7459 21.5171 11.5362 19.9151 9.93414C18.3131 8.3321 16.131 7.58632 13.866 7.80729ZM13.507 4.07841C12.9821 4.10603 12.6231 4.57559 12.6507 5.1004C12.7059 5.59758 13.1479 5.98428 13.6727 5.95666C16.4901 5.68045 19.2522 6.61957 21.2409 8.60831C23.202 10.5694 24.1688 13.3592 23.8926 16.1766C23.865 16.7014 24.2517 17.1433 24.7488 17.1986C25.0527 17.2262 25.3289 17.1157 25.5222 16.9223C25.6603 16.7842 25.7432 16.5909 25.7708 16.3423C26.1299 13.0001 24.9698 9.68554 22.5668 7.28249C20.1361 4.85181 16.8768 3.74695 13.507 4.07841ZM10.3581 15.0165C10.662 14.7679 10.8001 14.2983 10.6343 13.9116L9.22564 10.6799C9.05991 10.238 8.56273 10.017 8.14841 10.0999L5.11006 10.818C4.69574 10.9009 4.3919 11.3152 4.3919 11.7571C4.3919 19.3254 10.5515 25.485 18.1197 25.485C18.5617 25.485 18.976 25.1811 19.0588 24.7668L19.777 21.7285C19.8599 21.3141 19.6389 20.817 19.197 20.6512L15.9653 19.2425C15.5786 19.0768 15.109 19.2149 14.8604 19.5187L13.5346 21.1208C11.4353 20.1264 9.75045 18.4415 8.75608 16.3423L10.3581 15.0165Z" fill="#0B4DF5" />
+                            </svg>
+                                </a>
+                        </div>
+                        <div class="number-area">
+                            <span>Call us anytime</span>
+                            <a href="tel:+918467844058">
+                                <h6 class="call">+918467844058</h6>
+                            </a>
+                        </div>
+                    </div>
+                     <a id="menu-btn" class="menu rts-btn btn-primary-alta ml--20">
+                        <img class="menu-dark" src="assets/images/icon/menu.png" alt="Menu-icon" />
+                        <img class="menu-light" src="assets/images/icon/menu-light.png" alt="Menu-icon" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+          <div id="anywhere-home"></div>
+     <div id="side-bar" class="side-bar">
+        <a class="close-icon-menu"><i class="far fa-times"></i></a>
+        <!-- inner menu area desktop start -->
+        <div class="rts-sidebar-menu-desktop">
+            <a class="logo-2" href="/" style="text-align:center;"><img class="logo" src="assets/images/b33021ab-e9cd-4689-b764-5d64333e9f7c-removebg-preview.png" style="height:150px;" alt="finbiz_logo" /></a>
+            <div class="body d-none d-xl-block">
+            <%--    <p class="disc">We must explain to you how all seds this mistakens idea denouncing pleasures and praising account.</p>--%>
+                <p class="disc" style="margin-top:25px">Request a Free Sample of ISO</p>
+                <div class="get-in-touch">
+                    <div class="name-email">
+                                    <asp:TextBox ID="nameside" runat="server" BackColor="#F6F6F6" TextMode="SingleLine" placeholder="Full Name" ValidationGroup="group2" Width="90%"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" BackColor="White" runat="server" ErrorMessage="Please Fill Your Name" ControlToValidate="fname" ValidationGroup="group2" ForeColor="Red"></asp:RequiredFieldValidator>
+                                    <asp:TextBox ID="emailside" runat="server" BackColor="#F6F6F6" TextMode="Email" placeholder="Email" ValidationGroup="group2" Width="90%"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Please Fill Your Email" ControlToValidate="email1" ValidationGroup="group2" ForeColor="Red"></asp:RequiredFieldValidator>
+                                </div>
+                                    <asp:TextBox ID="mobileside" runat="server" BackColor="#F6F6F6" TextMode="Number" placeholder="Mobile No" ValidationGroup="group2" Width="90%"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Please Fill Your Mobile No" ControlToValidate="mobile" ValidationGroup="group2" ForeColor="Red"></asp:RequiredFieldValidator>
+                                    <asp:TextBox placeholder="Type Your Message" BackColor="#F6F6F6" id="messageside" runat="server" Width="90%"></asp:TextBox>
+                                <br /><br />
+
+                                    <asp:Button ID="SideQuery" runat="server" BackColor="#df0a0a" Text="Send Message" ValidationGroup="group2" CssClass="rts-btn btn-primary" OnClick="SideQuery_Click" />
+                    </div>
+
+
+               <%-- <div class="get-in-touch">
+                    <div class="h6 title">Get In Touch</div>
+                    <div class="wrapper">
+                        <div class="single">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+918467844058">+918467844058</a>
+                        </div>
+                        <div class="single">
+                            <i class="fas fa-envelope"></i>
+                            <a href="#footercontact">sales@competentcertification.com</a>
+                        </div>
+                        <div class="single">
+                            <i class="fas fa-globe"></i>
+                            <a href="/">www.competentcertification.com</a>
+                        </div>
+                        <div class="single">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="#">Bawana Delhi, India</a>
+                        </div>
+                    </div>
+                    <div class="social-wrapper-two menu">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>--%>
+            </div>
+            <div class="body-mobile d-block d-xl-none">
+                <nav class="nav-main mainmenu-nav">
+                    <ul class="mainmenu">
+                        <li class="menu-item menu-item"><a class="menu-link" href="/">Home</a></li>
+                        <li class="has-droupdown menu-item">
+                            <a class="menu-link" href="#">Services</a>
+                            <ul class="submenu">
+                                <li><a href="/iso-9001-2015">ISO-9001-2015</a></li>
+                                <li><a href="/iso-14001-2015">ISO-14001-2015</a></li>
+                                <li><a href="/iso-45001-2018">ISO-45001-2018</a></li>
+                                <li><a href="/iso-13485-2016">ISO-13485-2016</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a class="menu-link" href="/about">About Us</a></li>
+                        <li class="menu-item"><a class="menu-link" href="/clientList">Client List</a></li>
+                        <li class="menu-item menu-item"><a class="menu-link" href="/contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        
+           <div class="rts-about-area about-home-seven" id="footercontact">
+            <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="rts-single-service-h2" style="border:none;background-color:aliceblue;">
+                             <div class="body">
+            <div class="row">
+                <div class="col-12">
+                    <div class="rts-contact-fluid rts-section-gap" style="box-shadow:none;padding:0">
+                        <div class="rts-title-area contact-fluid text-center">
+                            <p class="pre-title"><h3>Get In Touch</h3>
+                            <span style="position: absolute;content: '';height: 2px;width: 70px;background-color: #c10006;left: 50%;-webkit-transform: translateX(-50%);transform: translateX(-50%);"></span>
+                            </p>
+                            <h6 class="title" style="font-size:14px;padding-top:20px;">Please fill the form below . One of our representatives will contact you soon..</h6>
+                        </div>
+                        <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="big-bg-porduct-details">
+                            <div class="thumbnail project-info">
+                            <div class="info-body">
+                                <div class="single-info">
+                                    <div class="info-ico">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="info-details">
+                                        <span>Phone:</span>
+                                        <h6 class="name"><a href="tel:+918467844058">+918467844058</a></h6>
+                                    </div>
+
+                                </div>
+                                
+                                <div class="single-info">
+                                    <div class="info-ico">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="info-details">
+                                        <span>Email:</span>
+                                        <h6 class="name"><a href="mailto:competentcertification@gmail.com">competentcertification@gmail.com</a></h6>
+                                    </div>
+                                </div>
+                                <div class="single-info">
+                                    <div class="info-ico">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="info-details">
+                                        <span>Address:</span>
+                                        <h6 class="name">Office No 989, 2nd floor Main Bus Stand, Jhanda Chowk Bawana, Delhi-110039</h6>
+                                    </div>
+                                </div>
+                                <!-- end single info -->
+                            </div>
+                        </div>
+                            </div>
+                </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="rts-contact-fluid rts-section-gap" style="box-shadow:none">
+                        <div class="rts-title-area contact-fluid" style="">
+                        <div class="form-wrapper">
+                            <div id="form-messages"></div>
+                            <div id="contact-form">
+                                <div class="name-email">
+                                    <asp:TextBox ID="fname" runat="server" BackColor="White" TextMode="SingleLine" placeholder="Full Name" ValidationGroup="group2" Width="90%"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="dfname" BackColor="White" runat="server" ErrorMessage="Please Fill Your Name" ControlToValidate="fname" ValidationGroup="group2" ForeColor="Red"></asp:RequiredFieldValidator>
+                                    <asp:TextBox ID="email1" runat="server" BackColor="White" TextMode="Email" placeholder="Email" ValidationGroup="group2" Width="90%"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="demail1" runat="server" ErrorMessage="Please Fill Your Email" ControlToValidate="email1" ValidationGroup="group2" ForeColor="Red"></asp:RequiredFieldValidator>
+                                </div>
+                                    <asp:TextBox ID="mobile" runat="server" BackColor="White" TextMode="Number" placeholder="Mobile No" ValidationGroup="group2" Width="90%"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="dmobile" runat="server" ErrorMessage="Please Fill Your Mobile No" ControlToValidate="mobile" ValidationGroup="group2" ForeColor="Red"></asp:RequiredFieldValidator>
+                                    <asp:TextBox placeholder="Type Your Message" BackColor="White" id="message" runat="server" Width="90%"></asp:TextBox>
+                                <asp:UpdatePanel ID="UP1" runat="server">
+                                            <ContentTemplate>
+                                                <table style="padding:20px; position:relative;">
+                                                    <tr>
+                                                        <td> <asp:TextBox ID="txtcaptcha" CssClass="form-control" runat="server" placeholder="Fill Captcha"></asp:TextBox></td>
+                                                        <td style="height:80px;width:120px;padding-left:10px" >
+                                                        <asp:Image ID="imgcapture" runat="server" cssclass="border border-dark" BorderStyle="Solid" BorderWidth="1px" BorderColor="Black"  />
+                                                    </td>
+                                                        <td class="pb-4">
+                                                    <asp:Button ID="refbutton" runat="server" CssClass="" ForeColor="Green" Text="Refresh" BorderStyle="None" BackColor="White" CausesValidation="false" onclick="refbutton_Click" />
+                                                            </td>
+                                                        
+                                                </tr>
+                                                    </table>
+                                                <asp:RequiredFieldValidator ID="txtcaptcha1" runat="server"  ErrorMessage="Please Input Captcha"  ValidationGroup="group2" ControlToValidate="txtcaptcha" ForeColor="Red"></asp:RequiredFieldValidator>
+                                            </ContentTemplate>
+                                        </asp:UpdatePanel>
+                                    <asp:Button ID="query" runat="server" BackColor="#df0a0a" Text="Send Message" ValidationGroup="group2" CssClass="rts-btn btn-primary" OnClick="query_Click" />
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                    </div>
+            </div>
+                    </div>
+                </div>
+        </div>
+            </div>
+        </div>
+
+    <div class="rts-copy-right ptb--30">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright-h-2-wrapper">
+                        <div class="right" style="margin-left:0px;">
+                            <ul>
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/contact">Contact</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <p class="disc right">Competent Certification Services - Copyright 2023. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row mobile-view">
+            <a class="mobilecall" href="tel:+91-8467844058">Call Now
+                </a>
+            <a href="https://api.whatsapp.com/send?phone=+91-8467844058&text=hey, I an interested in ISO certification services. so please reply me as soon as possible" target="_blank" rel="noopener noreferrer" class="mobilewhatsapp">
+        Whatsapp
+      </a>
+        </div>
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    </form>
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/jqueryui.js"></script>
+    <script src="assets/js/vendor/waypoint.js"></script>
+    <script src="assets/js/plugins/swiper.js"></script>
+    <script src="assets/js/plugins/counterup.js"></script>
+    <script src="assets/js/plugins/sal.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/contact.form.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
