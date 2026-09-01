@@ -19,6 +19,18 @@ public partial class Adminpanel_EditApplication : System.Web.UI.Page
         if ((String)Session["Admini"] == "")
             Response.Redirect("~/Adminpanel/Login.aspx");
 
+        // Markup uses type="text" for these fields because Mono's page
+        // parser throws "Unable to map input type control to a Type" for
+        // HTML5 input types (date/email/number) on runat="server" <input>
+        // elements. Setting the attribute here at runtime restores the
+        // native browser UI (date picker, numeric keypad, email
+        // validation) without going through that parser code path.
+        phoneno.Attributes["type"] = "number";
+        email.Attributes["type"] = "email";
+        issuedate.Attributes["type"] = "date";
+        expirydate.Attributes["type"] = "date";
+        orignaldate.Attributes["type"] = "date";
+
         // to update product details with category and subcategory
         if (!IsPostBack)
         {
