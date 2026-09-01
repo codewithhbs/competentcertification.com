@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="/Adminpanel/MasterPage.master" AutoEventWireup="true" CodeFile="EditApplication.aspx.cs" Inherits="Adminpanel_EditApplication" %>
+﻿﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Adminpanel/MasterPage.master" AutoEventWireup="true" CodeFile="EditApplication.aspx.cs" Inherits="Adminpanel_EditApplication" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -43,13 +43,13 @@
                         <div class="form-group">
                             <label class="col-md-2 control-label bold">Phone Number</label>
                             <div class="col-md-4">
-                                <input type="number" id="phoneno" runat="server" class="form-control" required="required" placeholder="Enter Phone Number"/>
+                                <input type="text" id="phoneno" runat="server" class="form-control" required="required" placeholder="Enter Phone Number"/>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-md-2 control-label bold">Email</label>
                             <div class="col-md-4">
-                                <input type="email" id="email" runat="server" class="form-control" required="required" placeholder="Enter Email"/>
+                                <input type="text" id="email" runat="server" class="form-control" required="required" placeholder="Enter Email"/>
                             </div>
                         </div>
                         <br />
@@ -63,7 +63,7 @@
                         <div class="form-group">
                             <label class="col-md-2 control-label bold">Issue Date</label>
                             <div class="col-md-4">
-                                <input type="date" id="issuedate" runat="server" class="form-control" required="required" placeholder="Enter Issue Date"/>
+                                <input type="text" id="issuedate" runat="server" class="form-control" required="required" placeholder="Enter Issue Date"/>
                             </div>
                         </div>
                         <br />
@@ -71,13 +71,13 @@
                         <div class="form-group">
                             <label class="col-md-2 control-label bold">Expiry Date</label>
                             <div class="col-md-4">
-                                <input type="date" id="expirydate" runat="server" class="form-control" required="required" placeholder="Enter Expiry Date"/>
+                                <input type="text" id="expirydate" runat="server" class="form-control" required="required" placeholder="Enter Expiry Date"/>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-md-2 control-label bold">Original Date</label>
                             <div class="col-md-4">
-                                <input type="date" id="orignaldate" runat="server" class="form-control" required="required" placeholder="Enter Original Date"/>
+                                <input type="text" id="orignaldate" runat="server" class="form-control" required="required" placeholder="Enter Original Date"/>
                             </div>
                         </div>
                         <br />
@@ -107,4 +107,3 @@
 </div>
 </div>
 </asp:Content>
-
