@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Adminpanel/MasterPage.master" AutoEventWireup="true" CodeFile="EditISOStandard.aspx.cs" Inherits="Adminpanel_EditISOStandard" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="/Adminpanel/MasterPage.master" AutoEventWireup="true" CodeFile="EditISOStandard.aspx.cs" Inherits="Adminpanel_EditISOStandard" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -33,7 +33,7 @@
                                         <div class="form-actions">
                                                 <div class="col-md-offset-3 col-md-9">
                                           <asp:Button CssClass="btn btn-info" Text="Update" runat="server" id="submit" OnClick="submit_Click" />
-                                            <a href="~/Adminpanel/Dashboard.aspx" Class="btn btn-danger">Exit</a>
+                                            <a href="/Adminpanel/Dashboard.aspx" Class="btn btn-danger">Exit</a>
                                         </div>
                                       </div>
                                    </div>

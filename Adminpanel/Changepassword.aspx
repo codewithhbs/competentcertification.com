@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Adminpanel/MasterPage.master" AutoEventWireup="true" CodeFile="Changepassword.aspx.cs" Inherits="Adminpanel_Changepassword" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="/Adminpanel/MasterPage.master" AutoEventWireup="true" CodeFile="Changepassword.aspx.cs" Inherits="Adminpanel_Changepassword" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajax" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
@@ -19,7 +19,7 @@
                 <div class="page-toolbar">
                     <!-- BEGIN PAGE BREADCRUMB -->
                     <ul class="page-breadcrumb breadcrumb">
-                        <li><a href="~/Adminpanel/Dashboard.aspx">Home</a><i class="fa fa-circle"></i></li>
+                        <li><a href="/Adminpanel/Dashboard.aspx">Home</a><i class="fa fa-circle"></i></li>
                         <li><span class="active">Change Password</span></li>
                     </ul>
                     <!-- END PAGE BREADCRUMB -->
