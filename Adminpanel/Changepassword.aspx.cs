@@ -36,7 +36,7 @@ public partial class Adminpanel_Changepassword : System.Web.UI.Page
             MySqlCommand cmd = new MySqlCommand("update user set password='" + newpassword.Text.Trim() + "' where userid='" + Session["Admini"] + "' ", con);
             cmd.ExecuteNonQuery();
             con.Close();
-            Response.Redirect("Login.aspx");
+            Response.Redirect("~/Adminpanel/Login.aspx");
         }
         else
         {
@@ -48,6 +48,6 @@ public partial class Adminpanel_Changepassword : System.Web.UI.Page
 
     protected void exit_Click(object sender, EventArgs e)
     {
-        Response.Redirect("Dashboard.aspx");
+        Response.Redirect("~/Adminpanel/Dashboard.aspx");
     }
 }

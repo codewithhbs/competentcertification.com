@@ -100,7 +100,7 @@
                         <div class="col-md-offset-3 col-md-9">
                         <asp:Button CssClass="btn btn-info" Text="Submit" runat="server" id="submit" OnClick="submit_Click" />
                             <asp:Button CssClass="btn btn-warning" Text="Cancel" runat="server" id="Cancle" OnClick="Cancel_Click" />
-                            <a href="Dashboard.aspx" Class="btn btn-danger">Exit</a>
+                            <a href="~/Adminpanel/Dashboard.aspx" Class="btn btn-danger">Exit</a>
                     </div>
                     </div>
                 </div>

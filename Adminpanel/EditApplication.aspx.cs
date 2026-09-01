@@ -69,13 +69,13 @@ public partial class Adminpanel_EditApplication : System.Web.UI.Page
             ScriptManager.RegisterStartupScript(this, GetType(), "sa", "alert('Application is Updated');", true);
 
         con.Close();
-        Response.Redirect("ApplicationList.aspx");
+        Response.Redirect("~/Adminpanel/ApplicationList.aspx");
     }
 
    
 
     protected void exit_Click(object sender, EventArgs e)
     {
-        Response.Redirect("Dashboard.aspx");
+        Response.Redirect("~/Adminpanel/Dashboard.aspx");
     }
 }

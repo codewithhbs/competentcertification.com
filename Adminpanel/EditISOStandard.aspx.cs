@@ -53,13 +53,13 @@ public partial class Adminpanel_EditISOStandard : System.Web.UI.Page
             ScriptManager.RegisterStartupScript(this, GetType(), "sa", "alert('Standard is Updated');", true);
 
         con.Close();
-        Response.Redirect("ISOStandard.aspx");
+        Response.Redirect("~/Adminpanel/ISOStandard.aspx");
     }
 
 
 
     protected void exit_Click(object sender, EventArgs e)
     {
-        Response.Redirect("Dashboard.aspx");
+        Response.Redirect("~/Adminpanel/Dashboard.aspx");
     }
 }

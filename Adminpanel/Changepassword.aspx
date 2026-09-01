@@ -19,7 +19,7 @@
                 <div class="page-toolbar">
                     <!-- BEGIN PAGE BREADCRUMB -->
                     <ul class="page-breadcrumb breadcrumb">
-                        <li><a href="Mainpage.aspx">Home</a><i class="fa fa-circle"></i></li>
+                        <li><a href="~/Adminpanel/Dashboard.aspx">Home</a><i class="fa fa-circle"></i></li>
                         <li><span class="active">Change Password</span></li>
                     </ul>
                     <!-- END PAGE BREADCRUMB -->

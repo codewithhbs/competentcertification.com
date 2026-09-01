@@ -30,12 +30,12 @@
         <!-- END PAGE LEVEL STYLES -->
         <!-- BEGIN THEME LAYOUT STYLES -->
         <!-- END THEME LAYOUT STYLES -->
-        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="shortcut icon" href="~/Adminpanel/favicon.ico" />
 </head>
 <body class=" login">
     <form id="form1" runat="server">
         <div class="logo">
-            <a href="index.html">
+            <a href="~/Default.aspx">
                 <img src="~/Adminpanel/assets/pages/img/logo-big.png" alt="" /> </a>
         </div>
         <!-- END LOGO -->

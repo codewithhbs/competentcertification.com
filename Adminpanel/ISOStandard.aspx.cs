@@ -53,6 +53,6 @@ public partial class Adminpanel_ISOStandard : System.Web.UI.Page
 
     protected void exit_Click(object sender, EventArgs e)
     {
-        Response.Redirect("Dashboard.aspx");
+        Response.Redirect("~/Adminpanel/Dashboard.aspx");
     }
 }

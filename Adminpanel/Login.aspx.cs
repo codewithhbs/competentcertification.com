@@ -27,7 +27,7 @@ public partial class Adminpanel_Login : System.Web.UI.Page
             if(dr.Read())
             {
                 Session["Admini"] = dr[0].ToString();
-                Response.Redirect("Dashboard.aspx");
+                Response.Redirect("~/Adminpanel/Dashboard.aspx");
             }
         }
         dr.Close();

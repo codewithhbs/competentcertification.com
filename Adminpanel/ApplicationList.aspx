@@ -37,7 +37,7 @@
                         <asp:BoundField DataField="isostandard" HeaderText="Standard" />
                         <asp:TemplateField HeaderText="Edit">
                             <ItemTemplate>
-                                <a href="EditApplication.aspx?id=<%# Eval("id") %>"><i class="fa fa-edit"></i></a>
+                                <a href='<%# ResolveUrl("~/Adminpanel/EditApplication.aspx") %>?id=<%# Eval("id") %>'><i class="fa fa-edit"></i></a>
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>
